@@ -16,9 +16,10 @@ public class KeyHandler implements KeyListener {
     public void keyPressed(KeyEvent e) {
         int code=e.getKeyCode();
         if (code==KeyEvent.VK_ENTER) {
-            // dp.search();
-            dp.autoSearch();
+            dp.search();
+            // dp.autoSearch();
         }
+        
     }
 
     @Override
